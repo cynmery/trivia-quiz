@@ -1,0 +1,49 @@
+#highScoresListNames,
+#highScoresListScore {
+    padding-left: 0;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.high-score-li {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.high-score-li:hover {
+    font-size: 2rem;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+    /*width: 30%;*/
+}
+
+.titles h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #3299a8;
+    text-align: center;
+}
+
+.titles:last-child {
+    margin-left: 5rem;
+}
+
+#title-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    border: 2rem #3299a8;
+}
+
+.titles p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}

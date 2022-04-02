@@ -1,0 +1,82 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(146, 197, 241, 0.685);
+    background-color: white;
+}
+
+.choice-prefix {
+    background-color: #3995a3;
+    color: white;
+    padding: 1.5rem 2.5rem;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem #3995a3d2;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* Game Header */
+#game-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-header-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.game-header-main-text {
+    text-align: center;
+}
+
+#progressbar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.4rem solid #3995a3;
+    margin-top: 1.5rem;
+}
+
+#progressBarFill {
+    background-color: #3995a3;
+    height: 3.5rem;
+    width: 0%;
+}
+
+/* LOADER */
+#loader {
+    border: 2rem solid white;
+    border-top: 2rem solid #3995a3d2;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

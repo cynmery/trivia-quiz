@@ -1,0 +1,104 @@
+:root {
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #3299a8;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+justify-center {
+    justify-content: center;
+}
+
+text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.container>* {
+    width: 100%;
+}
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+    font-size: 1.8rem;
+    width: 20rem;
+    padding: 1rem;
+    border: 0.1rem solid #3995a3;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #3995a3;
+    background-color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #3995a3;
+    transition: transform 150ms;
+    transform: translateY(-0.1rem);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 #3995a39f;
+}
